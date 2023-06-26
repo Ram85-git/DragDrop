@@ -1,10 +1,25 @@
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
+  </nav> -->
+  <div id="app">
+    <DraggableTree></DraggableTree>
+  </div>
   <router-view/>
 </template>
+
+<script>
+import DraggableTree from './components/DraggableTree.vue';
+export default {
+  name: `APP`,
+  components: {
+    DraggableTree
+  }
+}
+
+
+</script>
 
 <style>
 #app {
@@ -14,7 +29,7 @@
   text-align: center;
   color: #2c3e50;
 }
-
+/* 
 nav {
   padding: 30px;
 }
@@ -26,5 +41,5 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
 </style>
