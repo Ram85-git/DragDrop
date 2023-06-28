@@ -1,5 +1,18 @@
 <template>
   <h4>Hello</h4>
+  <!-- data() {
+    return {
+      treeData: [{text: 'node 1' , 
+      children: [
+      {text: 'node 1-1'},
+      {text: 'node 1-2'}
+      ]}, 
+      {text: 'node 2', 
+      children: [ 
+      {text: 'node 2-1'},
+      {text: 'node 2-2'}]}, {text: 'node 3',children: [{text: 'node 3-1'}]}, {text: 'node 4'}, {text: 'node 5'}, {text: 'node 6'}]
+    }
+  } -->
   <!-- <v-container>
     <v-row class="text-center">
       <v-col cols="12">
